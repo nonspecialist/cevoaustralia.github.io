@@ -7,14 +7,14 @@ categories: welcome
 
 Check out the [real cevo website][cevo-site] because this isn't full of wonderful content yet.
 
-Code Snippet:
+Oh, so you want to change the site?
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Cevonistas')
-#=> prints 'Hi, Cevonistas' to STDOUT.
+{% highlight bash %}
+/home/cevonista $ gem install jekyll
+/home/cevonista $ git clone https://github.com/cevoaustralia/cevoaustralia.github.io.git
+/home/cevonista $ cd cevoaustralia
+/home/cevonista/cevoaustralia $ jekyll serve
+# => Now browse to http://localhost:4000
 {% endhighlight %}
 
 
