@@ -1,0 +1,25 @@
+- icon_class: fa fa-dot-circle-o
+  title: Software Delivery
+  desc:
+    The only competitive advantage today is adaptability. To deliver valuable new
+    concepts and solutions faster than the competition, organisations need the
+    ability to rapidly deploy code to production, and then iterate based on
+    customer feedback.
+- icon_class: fa fa-trophy
+  title: Design
+  desc:
+    We assist organisations build immutable platforms, combining innovative automation technologies with unparalleled engineering skills.
+  further-reading:
+  image:
+- icon_class: fa fa-compass
+  title: DevOps
+  desc:
+    We help you build, manage, and optimise your continuous deployment pipeline, from source control through testing to automated production releases.
+  further-reading:
+  image:
+- icon_class: fa fa-star-half-empty
+  title: Automation
+  desc:
+    We assist organisations build immutable platforms, combining innovative automation technologies with unparalleled engineering skills.
+  further-reading:
+  image:

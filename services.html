@@ -1,0 +1,59 @@
+---
+layout: default
+section_id: services
+service-description: > # This ignores new lines
+  aslkdjfl
+---
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2>Our main services</h2>
+    </div>
+  </div>
+</div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+        <div class='boxes'>
+          {% for service in site.data.services %}
+            <div class='box' style='background: #f9f9f9;'>
+              <i class='{{service.icon_class}}'></i>
+              <h4>{{service.title}}</h4>
+              <p>{{service.desc}}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='row'>
+    <div class='row'>
+      <div class='medium-6 columns'>
+        <img class="fadeinleft" width="500" height="340" alt="" src="images/devops.png" />
+      </div>
+      <div class='medium-6 columns'>
+        <div class='spacing'></div>
+        <!-- <h4 style='color: #999'>We all love</h4> -->
+        <h2>Devops</h2>
+        <div class='spacing'></div>
+        <p>
+          DevOps is about continuously looking for new ways to break down silos,
+           remove bottlenecks, and eliminate inefficiencies — all while holding
+           ourselves to a higher standard of quality and reliability. Cevo has
+           extensive experience in in helping with the DevOps adoption in large
+           organisations. We work with your existing teams and help bridge the
+           divide between the development and operations teams as well as providing
+           them the DevOps tools and processes that helps increase transparency
+           and communication.
+         </p>
+        <div class='spacing'></div>
+      </div>
+    </div>
+    <div class='four spacing'></div>
+  </div>
+
+</div>
