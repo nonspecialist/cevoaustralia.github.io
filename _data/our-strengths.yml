@@ -1,0 +1,18 @@
+- sudoTitle: We All love
+  title: Amazing team
+  image: images/@stock/macbook.png
+  details: This is the text about your Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+  checklistItems:
+    - adf
+    - asdf
+
+- sudoTitle: We All love
+  title: Great Clients
+  image: images/@stock/circle-1.png
+  details: some deatils 2
+  checklistItems:
+- sudoTitle: We All love
+  title: interesting problems
+  image:
+  details:
+  checklistItems:
