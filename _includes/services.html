@@ -1,0 +1,18 @@
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+        <div class='boxes'>
+          {% for box in site.data.services %}
+            <div class='box' style=''>
+              <i class='{{box.icon_class}}'></i>
+              <h4>{{box.title}}</h4>
+              <p>{{box.desc}}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
