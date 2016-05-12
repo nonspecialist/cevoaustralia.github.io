@@ -12,8 +12,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_url: https://twitter.com/cevoaustralia
 linkedin_url: https://www.linkedin.com/company/cevoaustralia
-sydney_address: Level 4, 2-12 Foveaux St, Surry Hills NSW 2010
 melbourne_address: Level 14, 303 Collins St, Melbourne VIC 3000
+sydney_address: Suite 935 Level 9, 55 Hunter St, Sydney NSW 2000
+
 sales:
   phone: 1300 518 265
   email: sales@cevo.com.au
