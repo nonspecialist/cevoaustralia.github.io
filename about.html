@@ -11,26 +11,15 @@ skills:
   - title: Branding
     percent: 61
 
-testimonials:
-  - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
-    author: David White
-    position: Designer at Huglab
-    avatar: images/@stock/author-avatar-1.png
-  - text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing."
-    author: David White
-    position: Designer at Huglab
-    avatar: images/@stock/author-avatar-2.png
-  - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
-    author: David White
-    position: Designer at Huglab
-    avatar: images/@stock/author-avatar-3.png
-
 members:
   - name: Geoff Rohrsheim
     position: Executive Director
     desc:
-      Geoff is a former EY Entrepreneur of the Year winner for the southern region and has had 3 start-ups appear in the BRW Fast 100.
-      Geoff is passionate about the IT industry and how IT can improve business performance and society in general. He has been solving business problems with the pragmatic use of IT for over 2 decades.
+      Geoff is a former EY Entrepreneur of the Year winner for the southern
+      region and has had 3 start-ups appear in the BRW Fast 100.
+      <br/><br/>Geoff is passionate about the IT industry and how IT can improve
+      business performance and society in general. He has been solving business
+      problems with the pragmatic use of IT for over 2 decades.
     avatar: images/@stock/Geoff_Headshot.jpg
     socials:
       - icon_class: fa fa-linkedin
@@ -38,7 +27,10 @@ members:
   - name: Hannah Browne
     position: State Manager
     desc:
-      Hannah Browne is an opinionated deal maker and the Victorian State Manager of Cevo. A non-technical technologist who is strongly focused on the people component of teams and organisations, because frankly, the technology problems are the usually the easier challenges to resolve.
+      Hannah Browne is an opinionated deal maker and the Victorian State Manager of Cevo.
+      <br/><br/>A non-technical technologist who is strongly focused on the people
+      component of teams and organisations, because frankly, the technology problems
+      are the usually the easier challenges to resolve.
     avatar: images/@stock/Hanna_Browne.jpg
     socials:
       - icon_class: fa fa-linkedin
@@ -47,11 +39,13 @@ members:
   - name: Orlando Erazo
     position: DevOps Consultant
     desc:
-      Orlando is a consultant who provides leadership and delivery of DevOps, Agile Transformation and Cloud Automation projects and solutions.
+      Orlando is a consultant who provides leadership and delivery of DevOps,
+      Agile Transformation and Cloud Automation projects and solutions.
     avatar: images/@stock/orlando_erazo.jpg
     socials:
       - icon_class: fa fa-linkedin
         url: https://au.linkedin.com/in/orlando-erazo-68a11026
+
   - name: Lily Whrem
     position: Developer
     desc:
@@ -102,7 +96,7 @@ members:
         <div class='row'>
           <div class='small-12 columns'>
             <div class='items'>
-              {% for t in page.testimonials %}
+              {% for t in site.data.testimonials %}
                 <div class='item'>
                   <p class='quote'>{{t.text}}</p>
                   <div class='author'>
@@ -136,10 +130,10 @@ members:
   </div>
   <div class='row'>
     {% for member in page.members %}
-      <div class='small-6 medium-3 large-3 columns'>
+      <div class='small-6 medium-3 large-3 columns clearfix'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
-            <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
+            <img class="avatar" alt="" style="height: 312px" src="{{site.url}}/{{member.avatar}}" />
             <div class='overlay'>
               <ul class='socials'>
                 {% for social in member.socials %}
