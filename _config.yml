@@ -20,6 +20,7 @@ sales:
   email: sales@cevo.com.au
 
 # Build settings
+exclude: [Gemfile, Gemfile.lock, README.md, TODO.md]
 markdown: kramdown
 gems: [jekyll-paginate]
 paginate: 4
