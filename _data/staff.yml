@@ -1,0 +1,77 @@
+- name: Geoff Rohrsheim
+  position: Executive Director
+  desc:
+    Geoff is a former EY Entrepreneur of the Year winner for the southern
+    region and has had 3 start-ups appear in the BRW Fast 100.
+    <br/><br/>Geoff is passionate about the IT industry and how IT can improve
+    business performance and society in general. He has been solving business
+    problems with the pragmatic use of IT for over 2 decades.
+  avatar: images/@stock/Geoff_Headshot.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/geoffrohrsheim
+- name: Hannah Browne
+  position: State Manager
+  desc:
+    Hannah Browne is an opinionated deal maker and the Victorian State Manager of Cevo.
+    <br/><br/>A non-technical technologist who is strongly focused on the people
+    component of teams and organisations, because frankly, the technology problems
+    are the usually the easier challenges to resolve.
+  avatar: images/@stock/Hanna_Browne.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/hannahbrowne
+
+- name: Orlando Erazo
+  position: DevOps Consultant
+  desc:
+    Orlando is a consultant who provides leadership and delivery of DevOps,
+    Agile Transformation and Cloud Automation projects and solutions.
+  avatar: images/@stock/orlando_erazo.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/orlando-erazo-68a11026
+
+- name: Lily Whrem
+  position: Developer
+  desc:
+    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+  avatar: images/@stock/member-4.jpg
+  socials:
+    - icon_class: fa fa-twitter
+      url: http://twitter.com
+    - icon_class: fa fa-facebook
+      url: http://facebook.com
+
+- name: Steve Mactaggart
+  position: DevOps Consultant
+  desc:
+    Steve is a DevOps Consultant with over 16 years experience in and around the technology landscape.
+    <br/><br/>He has been driving what we now call a DevOps culture before there was even a name for it, and is constantly working to deliver business&#39; an approach of innovation, quality and consistent delivery.
+  avatar: images/@stock/steve_mactaggart.png
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/steve-mactaggart
+    - icon_class: fa fa-twitter
+      url: https://www.twitter.com/stevemac
+
+- name: Demo Stu
+  position: Developer
+  desc:
+    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+  avatar: images/@stock/member-4.jpg
+- name: Demo Stu
+  position: Developer
+  desc:
+    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+  avatar: images/@stock/member-4.jpg
+- name: Demo Stu
+  position: Developer
+  desc:
+    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+  avatar: images/@stock/member-4.jpg
+- name: Demo Stu
+  position: Developer
+  desc:
+    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+  avatar: images/@stock/member-4.jpg

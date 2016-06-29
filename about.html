@@ -11,69 +11,51 @@ skills:
   - title: Branding
     percent: 61
 
-members:
-  - name: Geoff Rohrsheim
-    position: Executive Director
-    desc:
-      Geoff is a former EY Entrepreneur of the Year winner for the southern
-      region and has had 3 start-ups appear in the BRW Fast 100.
-      <br/><br/>Geoff is passionate about the IT industry and how IT can improve
-      business performance and society in general. He has been solving business
-      problems with the pragmatic use of IT for over 2 decades.
-    avatar: images/@stock/Geoff_Headshot.jpg
-    socials:
-      - icon_class: fa fa-linkedin
-        url: https://au.linkedin.com/in/geoffrohrsheim
-  - name: Hannah Browne
-    position: State Manager
-    desc:
-      Hannah Browne is an opinionated deal maker and the Victorian State Manager of Cevo.
-      <br/><br/>A non-technical technologist who is strongly focused on the people
-      component of teams and organisations, because frankly, the technology problems
-      are the usually the easier challenges to resolve.
-    avatar: images/@stock/Hanna_Browne.jpg
-    socials:
-      - icon_class: fa fa-linkedin
-        url: https://au.linkedin.com/in/hannahbrowne
-
-  - name: Orlando Erazo
-    position: DevOps Consultant
-    desc:
-      Orlando is a consultant who provides leadership and delivery of DevOps,
-      Agile Transformation and Cloud Automation projects and solutions.
-    avatar: images/@stock/orlando_erazo.jpg
-    socials:
-      - icon_class: fa fa-linkedin
-        url: https://au.linkedin.com/in/orlando-erazo-68a11026
-
-  - name: Lily Whrem
-    position: Developer
-    desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-    avatar: images/@stock/member-4.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
 ---
-
 
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      <h4 style='color: #999'>We are pround of</h4>
-      <h2>Our history</h2>
+      <h2>Who are we?</h2>
       <div class='spacing'></div>
-      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <p>Cevo are a team of passionate problem solvers, with deep experience in
+        iterative software delivery. We value collaboration, entrepreneurship,
+        curiosity, automation, transparency, community and building quality in
+        to the software development life cycle. Our goal is to build a company
+        of wonderful people who solve interesting problems with great clients.
+      </p>
+
+      <p>We began life as a hardware/software reseller. And were reborn in
+        earnest in 2015 from the devops movement with a group of people who
+        want to see real, meaningful, value-driven change in our organisations.</p>
+
+      <p>We believe technology is the single most valuable tool we have for
+        innovation, and we work with our clients to create that climate in
+        their organisations.</p>
+
+      <p>We help our clients alleviate the challenges associated with access to
+        talented technologists by upskilling internal teams, optimising the
+        prioritisation of work and removing obstacles, hand-off’s, queues and waste.</p>
+
+      <p>We are also striving to refocus consulting on value delivered,
+        enablement and knowledge transfer, rather than simply hands on keyboards.</p>
+
     </div>
   </div>
-  <div class='three spacing'></div>
 </div>
-<div class='full' style='background: #f5f5f5'>
+
+<div class='full' >
   <div class='row'>
     <div class='medium-6 columns'>
+      <h3>Our community</h3>
+      <div class='spacing'></div>
+        <p>The Cevo team are passionate advocates for open source software
+          development and contribute to the open source movement.</p>
+        <ul>
+          <li><a href="https://github.com/AdamNowotny/BuildReactor">https://github.com/AdamNowotny/BuildReactor</a></li>
+        </ul>
+    </div>
+    <!-- <div class='medium-6 columns'>
       <h3>Our skills</h3>
       <div class='spacing'></div>
       <div class='mod modBarGraph'>
@@ -89,9 +71,9 @@ members:
           {% endfor %}
         </ul>
       </div>
-    </div>
+    </div> -->
     <div class='medium-6 columns'>
-      <h3>The testimonials</h3>
+      <h3>Our Clients</h3>
       <div class='mod modTestimonials simple'>
         <div class='row'>
           <div class='small-12 columns'>
@@ -121,19 +103,21 @@ members:
   </div>
   <div class='two spacing'></div>
 </div>
-<div class='full'>
+
+<div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
-      <h3>Our team</h3>
+      <h2>Our team</h2>
       <div class='spacing'></div>
     </div>
   </div>
   <div class='row'>
-    {% for member in page.members %}
-      <div class='small-6 medium-3 large-3 columns clearfix'>
+    {% for member in site.data.staff %}
+    {% assign loopindex = forloop.index | modulo: 2 %}
+      <div class='small-6 medium-3 large-3 columns clearfix' style="height:660px">
         <div class='mod modTeamMember style-2'>
           <div class='member'>
-            <img class="avatar" alt="" style="height: 312px" src="{{site.url}}/{{member.avatar}}" />
+            <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
             <div class='overlay'>
               <ul class='socials'>
                 {% for social in member.socials %}
@@ -152,6 +136,10 @@ members:
           <div class='two spacing'></div>
         </div>
       </div>
+      <!-- {% if loopindex == 3 %}
+  </div>
+  <div class='row'>
+      {% endif %} -->
     {% endfor %}
   </div>
   <div class='three spacing'></div>
