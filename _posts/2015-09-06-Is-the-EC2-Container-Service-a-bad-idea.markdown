@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Is the EC2 Container Service a bad idea
+title:  Is the EC2 Container Service a bad idea?
 date:   2015-09-06
 categories:
   - DevOps
