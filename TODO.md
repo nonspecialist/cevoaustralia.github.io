@@ -1,5 +1,9 @@
 # Items left to do
 
+## Navigation
+ - [x] Update phone number in footer
+ - [x] Add careers link in header and footer
+
 ## Homepage
 
  - Homepage Carousel
@@ -52,4 +56,4 @@
 ## Contact us
   - [ ] Currently no backend for this, thoughts?
   - [ ] Do we need the Sydney address?
-  - [ ] ?? Add in a GoogleMaps link ?? 
+  - [ ] ?? Add in a GoogleMaps link ??
