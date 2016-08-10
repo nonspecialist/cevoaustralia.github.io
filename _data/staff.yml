@@ -25,8 +25,12 @@
 - name: Orlando Erazo
   position: DevOps Consultant
   desc:
-    Orlando is a consultant who provides leadership and delivery of DevOps,
-    Agile Transformation and Cloud Automation projects and solutions.
+    Orlando spent 13 years working in software development, he then decided to focus on continuous delivery
+    transformation projects (since about 5 years ago), this involves both the cultural change and
+    the technical challenges found on the way. 
+    <br/><br/>He really enjoys helping companies to succeed in their move to become more agile and deliver beautiful software
+    to their customers whenever they need.
+
   avatar: images/@stock/orlando_erazo.jpg
   socials:
     - icon_class: fa fa-linkedin
