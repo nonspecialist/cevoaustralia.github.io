@@ -1,9 +1,9 @@
 - icon_class: fa fa-dot-circle-o
   title: Software Delivery
   desc:
-    The only competitive advantage today is adaptability. To deliver valuable new
-    concepts and solutions faster than the competition, organisations need the
-    ability to rapidly deploy code to production, and then iterate based on
+    To deliver new
+    concepts and solutions, organisations need the
+    ability to rapidly deploy code to production, and iterate based on
     customer feedback.
 # - icon_class: fa fa-trophy
 #   title: Design
