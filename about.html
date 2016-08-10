@@ -52,7 +52,11 @@ skills:
         <p>The Cevo team are passionate advocates for open source software
           development and contribute to the open source movement.</p>
         <ul>
-          <li><a href="https://github.com/AdamNowotny/BuildReactor">https://github.com/AdamNowotny/BuildReactor</a></li>
+          {% for url in site.data.open-source %}
+            <li>
+              <a href='{{url}}'>{{url}}</a>
+            </li>
+          {% endfor %}
         </ul>
     </div>
     <!-- <div class='medium-6 columns'>
