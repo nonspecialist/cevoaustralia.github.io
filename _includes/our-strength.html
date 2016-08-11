@@ -1,6 +1,7 @@
 <div class='full'>
   {% for strength in site.data.our-strengths %}
-    {% assign templateSelector = forloop.index | mod:2 %}
+    {% assign templateSelector = forloop.index | modulo:2 %}
+    <p>{{forloop.index}}</p>
     <p>{{templateSelector}}</p>
     {% if templateSelector == 1 %}
       {% include_relative _includes/our-strength/odd.html strength=strength %}
