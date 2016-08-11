@@ -98,26 +98,6 @@ section_id: careers
 </div>
 
 <div class=''>
-	<div class='row'>
-		<div class='small-12 columns'>
-      <div class='two spacing'></div>
-        <h2>Office Locations</h2>
-        <div class='row'>
-          <div class='small-6 columns'>
-            <h4>Melbourne</h4>
-            <address>Level 14<br>303 Collins Street<br>Melbourne VIC 3000</address>
-          </div>
-          <div class='small-6 columns'>
-            <h4>Sydney</h4>
-            <address>Suite 935 Level 9 <br>55 Hunter Street<br>Sydney NSW 2000</address>
-          </div>
-        </div>
-        <div class='two spacing'></div>
-    </div>
-  </div>
-</div>
-
-<div class='' style='background: #f5f5f5'>
   <div class='row'>
     <div class='small-12 columns'>
       <div class='two spacing'></div>
@@ -132,41 +112,56 @@ section_id: careers
   </div>
 </div>
 
-
-<div class=''>
+<div class='' style='background: #f5f5f5'>
   <div class='row'>
     <div class='small-12 columns'>
       <div class='two spacing'></div>
       <h2>Sound interesting?  Join us today!</h2>
 
-      <form id='contact_form' method="post">
-        <div class='large-12 columns'>
-          <p id='thanks' style='display: none;'>
-            Thanks for contacting us, we'll be in touch soon!
-          </p>
+      <div class='row'>
+        <div class='medium-8 columns'>
+          <form id='contact_form' method="post">
+            <div class='large-12 columns'>
+              <p id='thanks' style='display: none;'>
+                Thanks for contacting us, we'll be in touch soon!
+              </p>
+            </div>
+
+            <input type="text" class='required' name="name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Name">
+            <input type="tel" class='required' name="telephone" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Phone">
+            <input type="email" class='required email' name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Email Address">
+
+            <select name="job-title" placeholder="Job Title">
+              <option>DevOps Consultant</option>
+              <option>Other - Bringer of the Awesome</option>
+            </select>
+
+            <select name="location" placeholder="Location">
+              <option>Melbourne</option>
+              <option>Sydney</option>
+              <option>Other</option>
+            </select>
+
+            <textarea name="your-message" cols="40" rows="10" aria-invalid="false" placeholder="Tell us a little about yourself..."></textarea>
+
+            <!-- all your input fields here.... -->
+            <input type='submit' class="button" value='Apply Now' />
+          </form>
         </div>
 
-        <input type="text" name="name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Name">
-        <input type="tel" name="telephone" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Phone">
-        <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Email Address">
+      <div class='medium-4 columns'>
+        <div class='contact-details'>
+          <h4>Our locations:</h4>
+          <p>{{ site.melbourne_address }}</p>
+          <p>{{ site.sydney_address }}</p>
 
-        <select name="job-title" placeholder="Job Title">
-          <option>DevOps Consultant</option>
-          <option>Other - Bringer of the Awesome</option>
-        </select>
+          <h4>Our Phone:</h4>
+          <p>{{ site.sales.phone }}</p>
+          <h4>Our Email:</h4>
+          <p>{{ site.sales.email }}</p>
+        </div>
+      </div>
 
-        <select name="location" placeholder="Location">
-          <option>Melbourne</option>
-          <option>Sydney</option>
-          <option>Other</option>
-        </select>
-
-        <textarea name="your-message" cols="40" rows="10" aria-invalid="false" placeholder="Details">
-        </textarea>
-
-        <!-- all your input fields here.... -->
-        <input type='submit' class="button" value='Apply Now' />
-      </form>
       <div class='two spacing'></div>
     </div>
   </div>
