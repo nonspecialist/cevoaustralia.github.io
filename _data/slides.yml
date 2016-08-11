@@ -1,8 +1,8 @@
-- bg: images/backgrounds/trees.jpg
+- bg: images/backgrounds/trees-dark.jpg
   # title:
-  #   text: We simplify the buzzwords - Agile, Cloud, Automation, Devops
+  #   text: <p>Great people</p><p>Solving interesting problems</p><p>With awesome clients</p>
   #   animation: bottom-to-top
-  #   class: large-7 large-offset-5 medium-9 medium-offset-3
+  #   class: large-12
   # buttons:
   #   animation: bottom-to-top slow
   #   class: large-12
@@ -12,15 +12,19 @@
   #       class: boxed
   #     - text: Purchase Now
   #       url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-  # infos:
+  infos:
     
-  #   - text: "Great people"
-  #     class: large-12
-  #     animation: bottom-to-top
-  #   - text: "Awesome clients"
-  #     animation: bottom-to-top
-  #   - text: "Interesting problems"
-  #     animation: bottom-to-top
+    - subtext: We are
+      text: Great people
+      class: medium-12
+      animation: bottom-to-top
+    - subtext: solving
+      class: large-12
+      text: Interesting problems
+      animation: bottom-to-top
+    - subtext: with
+      text: "Awesome clients"
+      animation: bottom-to-top
   #   - text: "Agile"
   #     animation: bottom-to-top
   #   - text: "&nbsp;Many helpful shortcodes"
