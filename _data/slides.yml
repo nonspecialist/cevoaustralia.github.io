@@ -1,19 +1,5 @@
 - bg: images/backgrounds/trees-dark.jpg
-  # title:
-  #   text: <p>Great people</p><p>Solving interesting problems</p><p>With awesome clients</p>
-  #   animation: bottom-to-top
-  #   class: large-12
-  # buttons:
-  #   animation: bottom-to-top slow
-  #   class: large-12
-  #   items:
-  #     - text: View Features
-  #       url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-  #       class: boxed
-  #     - text: Purchase Now
-  #       url: http://themeforest.net/user/honryou/portfolio?ref=honryou
   infos:
-    
     - subtext: We are
       text: Great people
       class: medium-12
@@ -25,41 +11,3 @@
     - subtext: with
       text: "Awesome clients"
       animation: bottom-to-top
-  #   - text: "Agile"
-  #     animation: bottom-to-top
-  #   - text: "&nbsp;Many helpful shortcodes"
-  #     animation: bottom-to-top
-  #   - text: "&nbsp;Simple but powerful theme options"
-  #     animation: bottom-to-top
-  #   - text: "&nbsp;Fully responsive"
-  #     animation: bottom-to-top
-# - bg: images/header/road-mountain-min.jpg
-#   title:
-#     text: It is simple but powerful
-#     animation: bottom-to-top
-#     class: large-7 large-offset-5 medium-9 medium-offset-3
-#   buttons:
-#     animation: bottom-to-top
-#     class: large-7 large-offset-5 medium-9 medium-offset-3
-#     items:
-#       - text: Purchase Now
-#         url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-#         class: boxed
-#   buttons:
-#     animation: bottom-to-top slow
-#     class: large-12
-#     items:
-#       - text: View Features
-#         url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-#         class: boxed
-#       - text: Purchase Now
-#         url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-#   infos:
-#     - text: "&nbsp;Creative and responsive design"
-#       animation: bottom-to-top
-#     - text: "&nbsp;Many helpful shortcodes"
-#       animation: bottom-to-top
-#     - text: "&nbsp;Simple but powerful theme options"
-#       animation: bottom-to-top
-#     - text: "&nbsp;Fully responsive"
-#       animation: bottom-to-top

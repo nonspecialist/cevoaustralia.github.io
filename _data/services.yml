@@ -6,18 +6,11 @@
     ability to rapidly deploy code to production, and iterate based on
     customer feedback.
   link: services.html#software
-# - icon_class: fa fa-trophy
-#   title: Design
-#   desc:
-#     We assist organisations build immutable platforms, combining innovative automation technologies with unparalleled engineering skills.
-#   further-reading:
-#   image:
 - icon_class: fa fa-compass
   title: DevOps
   desc:
     We help you build, manage, and optimise your continuous deployment pipeline, from source control through testing to automated production releases.
   link: services.html#devops
-  image:
 - icon_class: fa fa-star-half-empty
   title: Automation
   desc:
