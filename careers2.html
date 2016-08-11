@@ -1,0 +1,109 @@
+---
+layout: default
+section_id: careers
+---
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2>Cevo Careers</h2>
+    </div>
+  </div>
+</div>
+<div class='' style='background: #f5f5f5'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='row'>
+      <div class='medium-12 columns'>
+        <!-- <div class='spacing'></div> -->
+        <!-- <h4 style='color: #999'>We all love</h4> -->
+        <!-- <h2>Cevo Careers</h2> -->
+        <!-- <div class='spacing'></div> -->
+        <p>
+          Our mission is to be Australia’s premier provider of devops, automation and software
+          delivery. To do this, we will build a team of great people who solve interesting problems 
+          working with awesome clients. 
+        </p>
+        <p>
+          We’re always looking for smart, motivated team players who want to join our team of like 
+          minded people. We’re like‐minded, meaning, yes we like to think that we're good at what 
+          we do but more importantly, we respect each others’ opinions and experiences. We’re 
+          curious and love to learn but most of all we genuinely can’t wait to get together each 
+          month, talk about the month that was and have a good laugh (with some wine and cheese 
+          of course).
+        </p>
+      </div>
+      <div class='two spacing'></div>
+      <div class='medium-3 columns'><p></p></div>
+      <div class='medium-6 columns'>
+        <p><i>
+          “I’ve learned that people will forget what you said, people will forget what you did, but
+          people will never forget how you made them feel”  - Maya Angelou.</i>
+        </p>
+      </div>
+      <div class='two spacing'></div>
+      <div class='medium-12 columns'>
+        <p>
+          Our customers and our people are our lifeline, we live by this and make sure that everyone 
+          who comes into contact with Cevo remembers how we made them feel.
+        </p>
+        <div class='spacing'></div>
+        <h4>It’s always the little things that make a difference</h4>
+        <p>
+          Here at Cevo, we know that it takes the sum of us to make a difference to our customers
+          through attracting and retaining great people while sharing our learnings to other curious 
+          folk. Our goal is to become a destination employer and we think some of the little things we 
+          offer can help us get there.
+        </p>
+        <div class='spacing'></div>
+        <h4>Sharing is caring</h4>
+        <p>
+          At Cevo, we know that what we are doing is making a difference and the best people to tell 
+          that story is our people. We love to share our stories from some of the awesome projects 
+          that we work on and we reward our people for doing just that.
+        </p>
+        <div class='spacing'></div>
+        <h4>Flexibility is not just for yogi’s</h4>
+        <p>
+          We hear it all the time, work/life balance, flexibility etc. We encourage you to be yourself 
+          and we choose to partner with clients that share those same values as us. Life gets busy and 
+          we all handle things differently so being adaptable and flexible is critical to our teams 
+          success and peace of mind.
+        </p>
+        <div class='spacing'></div>
+        <h4>It’s who you know</h4>
+        <p>
+          Know someone that would be a great fit for Cevo? We offer our people a nice little incentive 
+          to refer more awesome people, it’s paid on start date and at probation end.
+        </p>
+        <div class='spacing'></div>
+        <h4>Walk the red carpet</h4>
+        <p>
+          Cevo awards are an important part of our monthly rhythm and an important way to
+          recognise our peers for great work. We have various awards that we love to give our 
+          people, whether it be a peer, customer or Director recognition, we make sure that the great 
+          work you are doing doesn’t go unnoticed.
+        </p>
+        <div class='spacing'></div>
+        <h4>Let’s work together</h4>
+        <p>
+          If you think you have what it takes and if you are up for the challenge, working at Cevo can 
+          help take your career to the next level. 
+          We want to work with people who share our passion for technology and that desire to help 
+          deliver the most innovative and leading edge DevOps and cloud automation solutions for 
+          our customers. We currently have offices in Melbourne.
+        </p>
+      </div>
+    </div>
+    <div class='two spacing'></div>
+    <h2>Current positions</h2>
+    {% for video in site.data.videos %}
+      <h3>{{ video.title }}</h3>
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/{{ video.id }}">
+      </iframe>
+      <div class='two spacing'></div>
+    {% endfor %}
+    
+  </div>
+</div>
