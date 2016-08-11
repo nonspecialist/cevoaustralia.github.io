@@ -19,7 +19,7 @@
     </p>
 - sudoTitle: Solving
   title: Interesting Problems
-  image: images/@stock/circle-1.png
+  image: images/problems.jpg
   link: services.html
   details: 
     <p>
@@ -40,7 +40,7 @@
     </p>
 - sudoTitle: With
   title: Awesome Clients
-  image: images/@stock/circle-1.png
+  image: images/clients.jpg
   details: 
     <p>
     Our clients are leaders who understand that the most effective approach to solving
