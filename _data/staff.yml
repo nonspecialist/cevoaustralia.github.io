@@ -22,14 +22,14 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/hannahbrowne
 
-- name: Veronica Finarelli
-  position: People and Culture
-  desc:
-    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-  avatar: images/@stock/member-4.jpg
-  socials:
-    - icon_class: fa fa-linkedin
-      url: https://au.linkedin.com/in/hannahbrowne
+# - name: Veronica Finarelli
+#   position: People and Culture
+#   desc:
+#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+#   avatar: images/@stock/member-4.jpg
+#   socials:
+#     - icon_class: fa fa-linkedin
+#       url: https://au.linkedin.com/in/hannahbrowne
 
 - name: Orlando Erazo
   position: DevOps Consultant
@@ -55,27 +55,27 @@
     - icon_class: fa fa-twitter
       url: https://www.twitter.com/stevemac
 
-- name: Adam Nowotny
-  position: DevOps Consultant
-  desc:
-    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-  avatar: images/@stock/member-4.jpg
-  socials:
-    - icon_class: fa fa-twitter
-      url: http://twitter.com
-    - icon_class: fa fa-facebook
-      url: http://facebook.com
+# - name: Adam Nowotny
+#   position: DevOps Consultant
+#   desc:
+#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+#   avatar: images/@stock/member-4.jpg
+#   socials:
+#     - icon_class: fa fa-twitter
+#       url: http://twitter.com
+#     - icon_class: fa fa-facebook
+#       url: http://facebook.com
 
-- name: Robert Rocco
-  position: DevOps Consultant
-  desc:
-    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-  avatar: images/@stock/member-4.jpg
-  socials:
-    - icon_class: fa fa-twitter
-      url: http://twitter.com
-    - icon_class: fa fa-facebook
-      url: http://facebook.com
+# - name: Robert Rocco
+#   position: DevOps Consultant
+#   desc:
+#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+#   avatar: images/@stock/member-4.jpg
+#   socials:
+#     - icon_class: fa fa-twitter
+#       url: http://twitter.com
+#     - icon_class: fa fa-facebook
+#       url: http://facebook.com
 
 - name: Andy Shaw
   position: DevOps Consultant
@@ -98,29 +98,29 @@
     - icon_class: fa fa-twitter
       url: http://twitter.com
 
-- name: Trent Hornibrook
-  position: DevOps Consultant
-  desc:
-    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-  avatar: images/staff/trent_hornibrook.jpg
-  socials:
-    - icon_class: fa fa-twitter
-      url: http://twitter.com
+# - name: Trent Hornibrook
+#   position: DevOps Consultant
+#   desc:
+#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+#   avatar: images/staff/trent_hornibrook.jpg
+#   socials:
+#     - icon_class: fa fa-twitter
+#       url: http://twitter.com
 
-- name: Owen Chung
-  position: DevOps Consultant
-  desc:
-    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-  avatar: images/staff/owen_chung.jpg
-  socials:
-    - icon_class: fa fa-twitter
-      url: http://twitter.com
+# - name: Owen Chung
+#   position: DevOps Consultant
+#   desc:
+#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+#   avatar: images/staff/owen_chung.jpg
+#   socials:
+#     - icon_class: fa fa-twitter
+#       url: http://twitter.com
 
-- name: Colin Panisset
-  position: DevOps Consultant
-  desc:
-    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-  avatar: images/@stock/member-4.jpg
-  socials:
-    - icon_class: fa fa-twitter
-      url: http://twitter.com
+# - name: Colin Panisset
+#   position: DevOps Consultant
+#   desc:
+#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+#   avatar: images/@stock/member-4.jpg
+#   socials:
+#     - icon_class: fa fa-twitter
+#       url: http://twitter.com
