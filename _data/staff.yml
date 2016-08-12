@@ -32,7 +32,7 @@
 #       url: https://au.linkedin.com/in/hannahbrowne
 
 - name: Orlando Erazo
-  position: DevOps Consultant
+  position: Devops Consultant
   desc:
     Orlando spent 13 years working in software development, he then decided to focus on continuous delivery
     transformation projects (since about 5 years ago)
@@ -44,10 +44,10 @@
       url: https://au.linkedin.com/in/orlando-erazo-68a11026
 
 - name: Steve Mactaggart
-  position: DevOps Consultant
+  position: Devops Consultant
   desc:
-    Steve is a DevOps Consultant with over 16 years experience in and around the technology landscape.
-    <br/><br/>He has been driving what we now call a DevOps culture before there was even a name for it, and is constantly working to deliver business&#39; an approach of innovation, quality and consistent delivery.
+    Steve is a devops Consultant with over 16 years experience in and around the technology landscape.
+    <br/><br/>He has been driving what we now call a devops culture before there was even a name for it, and is constantly working to deliver business&#39; an approach of innovation, quality and consistent delivery.
   avatar: images/staff/steve_mactaggart.jpg
   socials:
     - icon_class: fa fa-linkedin
@@ -56,7 +56,7 @@
       url: https://www.twitter.com/stevemac
 
 # - name: Adam Nowotny
-#   position: DevOps Consultant
+#   position: Devops Consultant
 #   desc:
 #     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
 #   avatar: images/@stock/member-4.jpg
@@ -67,7 +67,7 @@
 #       url: http://facebook.com
 
 # - name: Robert Rocco
-#   position: DevOps Consultant
+#   position: Devops Consultant
 #   desc:
 #     Robert Rocco is highly motivated and goal driven member of the team at Cevo.  He is continuously seeking knowledge and thrives on challenges.  Finding the best solution for a problem is one of his main focuses, beleving you should always be looking to improve.
 #   avatar: images/@stock/member-4.jpg
@@ -78,18 +78,18 @@
 #       url: http://facebook.com
 
 - name: Andy Shaw
-  position: DevOps Consultant
+  position: Devops Consultant
   desc:
     Andy was once a developer before he became fascinated with devops and being able to automate All The Things. Since then, he's been enjoying using some of the new technologies emerging in the devops space alongside proven technologies to solve a diverse range of problems.
   avatar: images/staff/andy_shaw.jpg
-  socials:
-    - icon_class: fa fa-twitter
-      url: http://twitter.com
-    - icon_class: fa fa-facebook
-      url: http://facebook.com
+  # socials:
+  #   - icon_class: fa fa-twitter
+  #     url: http://twitter.com
+  #   - icon_class: fa fa-facebook
+  #     url: http://facebook.com
 
 # - name: Karel Malbroukou Moendzenahou
-#   position: DevOps Consultant
+#   position: Devops Consultant
 #   desc:
 #     Karel is a consultant who provides leadership and delivery of operations best practices, cloud automation solutions and devops transformation.
 #     He is an enthusiastic and outgoing engineer who’s been active in the devops & agile space in the last few years. Boom!
@@ -98,26 +98,26 @@
 #     - icon_class: fa fa-twitter
 #       url: http://twitter.com
 
-# - name: Trent Hornibrook
-#   position: DevOps Consultant
-#   desc:
-#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-#   avatar: images/staff/trent_hornibrook.jpg
-#   socials:
-#     - icon_class: fa fa-twitter
-#       url: http://twitter.com
+- name: Trent Hornibrook
+  position: Devops Consultant
+  desc:
+    Trent Hornibrook is a passionate engineer that wants to reduce the cycle from ‘idea’ to ‘cash’. Having a history of Infrastructure Operations, MySQL DBA and Agile Delivery, Trent loves simplifying complex problems and identifying ways to deliver value sooner.
+  avatar: images/staff/trent_hornibrook.jpg
+  # socials:
+  #   - icon_class: fa fa-twitter
+  #     url: http://twitter.com
 
-# - name: Owen Chung
-#   position: DevOps Consultant
-#   desc:
-#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-#   avatar: images/staff/owen_chung.jpg
-#   socials:
-#     - icon_class: fa fa-twitter
-#       url: http://twitter.com
+- name: Owen Chung
+  position: Devops Consultant
+  desc:
+    Owen Chung is a passionate technologist in the game since the turn of the century. He believes tech is an expression of culture. Quality tech reflects a quality culture. His mission is to help tech builders, makers and creators be their best wielding his devops superpowers to drive this cultural change. 
+  avatar: images/staff/owen_chung.jpg
+  # socials:
+  #   - icon_class: fa fa-twitter
+  #     url: http://twitter.com
 
 # - name: Colin Panisset
-#   position: DevOps Consultant
+#   position: Devops Consultant
 #   desc:
 #     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
 #   avatar: images/@stock/member-4.jpg

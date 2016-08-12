@@ -15,7 +15,7 @@
 
 /*some basic settings */
 a {
-  color: #F9CE06;
+  color: #4E9925;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
@@ -1521,7 +1521,7 @@ body.screenshot {
 .modDefaultSlider .sequence .info, .modDefaultSlider .sequence .title, .modDefaultSlider .sequence .small-title, .modDefaultSlider .sequence .buttons-wrapper, .modDefaultSlider .sequence .info1, .modDefaultSlider .sequence .info2, .modDefaultSlider .sequence .info3, .modDefaultSlider .sequence .info4 {
   position: relative;
   width: 100%;
-  top: 30px;
+  top: 70px;
 }
 .modDefaultSlider .sequence .buttons-wrapper {
   z-index: 9999;
@@ -1532,7 +1532,7 @@ body.screenshot {
   -webkit-transition-property: left;
   transition-property: left;
   left: -100%;
-  top: 30px;
+  top: 70px;
 }
 .modDefaultSlider .sequence .info.right-to-left, .modDefaultSlider .sequence .info1.right-to-left, .modDefaultSlider .sequence .info2.right-to-left, .modDefaultSlider .sequence .info3.right-to-left, .modDefaultSlider .sequence .info4.right-to-left, .modDefaultSlider .sequence .buttons-wrapper.right-to-left, .modDefaultSlider .sequence .title.right-to-left, .modDefaultSlider .sequence .small-title.right-to-left {
   -moz-transition-property: right;
@@ -1540,7 +1540,7 @@ body.screenshot {
   -webkit-transition-property: right;
   transition-property: right;
   right: -100%;
-  top: 30px;
+  top: 70px;
 }
 .modDefaultSlider .sequence .info.bottom-to-top, .modDefaultSlider .sequence .info1.bottom-to-top, .modDefaultSlider .sequence .info2.bottom-to-top, .modDefaultSlider .sequence .info3.bottom-to-top, .modDefaultSlider .sequence .info4.bottom-to-top, .modDefaultSlider .sequence .buttons-wrapper.bottom-to-top, .modDefaultSlider .sequence .title.bottom-to-top, .modDefaultSlider .sequence .small-title.bottom-to-top {
   -moz-transition-property: top, opacity;
@@ -1658,7 +1658,7 @@ body.screenshot {
   transition-delay: 2.2s;
 }
 .modDefaultSlider .sequence .animate-in .title.left-to-right {
-  top: 30px;
+  top: 70px;
   left: 0;
   opacity: 1;
   -moz-transition-duration: 1s;
@@ -1671,7 +1671,7 @@ body.screenshot {
   transition-delay: 1s;
 }
 .modDefaultSlider .sequence .animate-in .small-title.left-to-right {
-  top: 30px;
+  top: 70px;
   left: 0;
   opacity: 1;
   -moz-transition-duration: 1s;
@@ -1684,7 +1684,7 @@ body.screenshot {
   transition-delay: 1s;
 }
 .modDefaultSlider .sequence .animate-in .title.bottom-to-top {
-  top: 30px;
+  top: 70px;
   opacity: 1;
   left: 0;
   -moz-transition-duration: 1s;
@@ -1697,7 +1697,7 @@ body.screenshot {
   transition-delay: 1s;
 }
 .modDefaultSlider .sequence .animate-in .small-title.bottom-to-top {
-  top: 30px;
+  top: 70px;
   opacity: 1;
   left: 0;
   -moz-transition-duration: 1s;
@@ -1710,7 +1710,7 @@ body.screenshot {
   transition-delay: 0.5s;
 }
 .modDefaultSlider .sequence .animate-in .info.bottom-to-top {
-  top: 30px;
+  top: 70px;
   opacity: 1;
   left: 0;
   -moz-transition-duration: 1s;
@@ -1731,7 +1731,7 @@ body.screenshot {
   -o-transition-delay: 1s;
   -webkit-transition-delay: 1s;
   transition-delay: 1s;
-  top: 30px;
+  top: 70px;
   opacity: 1;
   left: 0;
 }
@@ -1744,7 +1744,7 @@ body.screenshot {
   -o-transition-delay: 1.3s;
   -webkit-transition-delay: 1.3s;
   transition-delay: 1.3s;
-  top: 30px;
+  top: 70px;
   opacity: 1;
   left: 0;
 }
@@ -1757,7 +1757,7 @@ body.screenshot {
   -o-transition-delay: 1.6s;
   -webkit-transition-delay: 1.6s;
   transition-delay: 1.6s;
-  top: 30px;
+  top: 70px;
   opacity: 1;
   left: 0;
 }
@@ -1770,7 +1770,7 @@ body.screenshot {
   -o-transition-delay: 1.9s;
   -webkit-transition-delay: 1.9s;
   transition-delay: 1.9s;
-  top: 30px;
+  top: 70px;
   opacity: 1;
   left: 0;
 }
@@ -1783,7 +1783,7 @@ body.screenshot {
   -o-transition-delay: 1.3s;
   -webkit-transition-delay: 1.3s;
   transition-delay: 1.3s;
-  top: 30px;
+  top: 70px;
   opacity: 1;
   left: 0;
 }
@@ -1872,7 +1872,7 @@ body.screenshot {
   transition-delay: 2.2s;
 }
 .modDefaultSlider .sequence .animate-in .title.right-to-left {
-  top: 30px;
+  top: 70px;
   right: 0;
   opacity: 1;
   -moz-transition-duration: 1s;
@@ -1885,7 +1885,7 @@ body.screenshot {
   transition-delay: 1s;
 }
 .modDefaultSlider .sequence .animate-in .small-title.right-to-left {
-  top: 30px;
+  top: 70px;
   right: 0;
   opacity: 1;
   -moz-transition-duration: 1s;
