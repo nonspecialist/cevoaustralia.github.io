@@ -11,7 +11,7 @@ tags:
 author: Steve Mactaggart
 images:
 excerpt:
-  <!-- In light of the <a href="https://twitter.com/hashtag/CensusFAIL">CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward a number of different architectures we feel would have delivered had we been involved in the creation of this years Census application. -->
+  In light of the <a href="https://twitter.com/hashtag/CensusFAIL">CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward a number of different architectures we feel would have delivered had we been involved in the creation of this years Census application.
 ---
 
 Having not already completed the Census, I’m not 100% sure of what the official requirements are, but I will take a crack at designing a solution from a guesstimate of what they would need.
