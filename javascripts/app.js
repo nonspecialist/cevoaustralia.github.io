@@ -72,20 +72,26 @@ jQuery(document).foundation();
     $('form#contact_form').validate({
       messages: { },
       submitHandler: function(form) {
+        console.log($(form));
+        console.log(JSON.stringify($(form).serializeArray()));
         $.ajax({
-          type: 'POST',
-          url: 'http://formspree.io/sales@cevo.com.au',
-          data: JSON.stringify($(form).serializeArray()),
+          url: 'http://formspree.io/shawry@shawry.com',
+          method: 'POST',
+          data: $(form).serialize(),
           dataType: 'json',
-          headers: {
-              'Accept': 'application/json',
-              'Content-Type': 'application/x-www-form-urlencoded'
+          beforeSend: function() {
+            $(form).append('<div class="alert alert--loading">Sending message…</div>');
           },
           success: function(data) {
-            if(data.success) {
-              $(form).trigger('reset');
-              $('#thanks').show().fadeOut(5000);
-            }
+            $(form).trigger('reset');
+            $(form).find('.alert--loading').hide();
+            $(form).append('<div class="alert alert--success">Message sent!</div>');
+            $(form).find('.alert--success').fadeOut(5000);
+          },
+          error: function(err) {
+            $(form).find('.alert--loading').hide();
+            $(form).append('<div class="alert alert--error">Ops, there was an error.</div>');
+            $(form).find('.alert--success').fadeOut(5000);
           }
         });
         return false;
@@ -95,20 +101,26 @@ jQuery(document).foundation();
     $('form#career_form').validate({
       messages: { },
       submitHandler: function(form) {
+        console.log($(form));
+        console.log(JSON.stringify($(form).serializeArray()));
         $.ajax({
-          type: 'POST',
-          url: 'http://formspree.io/careers@cevo.com.au',
-          data: JSON.stringify($(form).serializeArray()),
+          url: 'http://formspree.io/shawry@shawry.com',
+          method: 'POST',
+          data: $(form).serialize(),
           dataType: 'json',
-          headers: {
-              'Accept': 'application/json',
-              'Content-Type': 'application/x-www-form-urlencoded'
+          beforeSend: function() {
+            $(form).append('<div class="alert alert--loading">Sending message…</div>');
           },
           success: function(data) {
-            if(data.success) {
-              $(form).trigger('reset');
-              $('#thanks').show().fadeOut(5000);
-            }
+            $(form).trigger('reset');
+            $(form).find('.alert--loading').hide();
+            $(form).append('<div class="alert alert--success">Message sent!</div>');
+            $(form).find('.alert--success').fadeOut(5000);
+          },
+          error: function(err) {
+            $(form).find('.alert--loading').hide();
+            $(form).append('<div class="alert alert--error">Ops, there was an error.</div>');
+            $(form).find('.alert--success').fadeOut(5000);
           }
         });
         return false;
