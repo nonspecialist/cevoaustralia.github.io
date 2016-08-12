@@ -38,5 +38,3 @@ Benefits include:
 * Shorter testing time frames
 * Faster development
 * Improved customer satisfaction
-
-Download the full case study here. <NOTE : ALLOW THIS>
