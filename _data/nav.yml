@@ -14,5 +14,5 @@
   path: contact.html
   section_id: contact
 - name: Blog
-  path: blog/
+  path: blog/index.html
   section_id: blog
