@@ -75,9 +75,37 @@ jQuery(document).foundation();
         $.ajax({
           type: 'POST',
           url: 'http://formspree.io/sales@cevo.com.au',
-          data: $(form).serialize(),
+          data: JSON.stringify($(form).serializeArray()),
+          dataType: 'json',
+          headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/x-www-form-urlencoded'
+          },
           success: function(data) {
-            if(data.match(/success/)) {
+            if(data.success) {
+              $(form).trigger('reset');
+              $('#thanks').show().fadeOut(5000);
+            }
+          }
+        });
+        return false;
+      }
+    });
+
+    $('form#career_form').validate({
+      messages: { },
+      submitHandler: function(form) {
+        $.ajax({
+          type: 'POST',
+          url: 'http://formspree.io/careers@cevo.com.au',
+          data: JSON.stringify($(form).serializeArray()),
+          dataType: 'json',
+          headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          success: function(data) {
+            if(data.success) {
               $(form).trigger('reset');
               $('#thanks').show().fadeOut(5000);
             }
