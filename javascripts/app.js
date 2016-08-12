@@ -24,8 +24,8 @@ jQuery.extend({
       removeClass.call(this, value);
     }
 
-    return this
-  }
+    return this;
+  };
 })(jQuery.fn.removeClass);
 
 jQuery(document).ready(function() {
@@ -49,7 +49,7 @@ jQuery(document).foundation();
 
       setTimeout(function() {
         $(that).addClass('appear');
-      }, delay)
+      }, delay);
 
     });
 
@@ -72,10 +72,8 @@ jQuery(document).foundation();
     $('form#contact_form').validate({
       messages: { },
       submitHandler: function(form) {
-        console.log($(form));
-        console.log(JSON.stringify($(form).serializeArray()));
         $.ajax({
-          url: 'http://formspree.io/shawry@shawry.com',
+          url: 'http://formspree.io/sales@cevo.com.au',
           method: 'POST',
           data: $(form).serialize(),
           dataType: 'json',
@@ -101,10 +99,8 @@ jQuery(document).foundation();
     $('form#career_form').validate({
       messages: { },
       submitHandler: function(form) {
-        console.log($(form));
-        console.log(JSON.stringify($(form).serializeArray()));
         $.ajax({
-          url: 'http://formspree.io/shawry@shawry.com',
+          url: 'http://formspree.io/careers@cevo.com.au',
           method: 'POST',
           data: $(form).serialize(),
           dataType: 'json',
