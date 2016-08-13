@@ -11,13 +11,12 @@ tags:
 author: Steve Mactaggart
 images:
 excerpt:
-  In light of the <a href="https://twitter.com/hashtag/CensusFAIL">#CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward an architecture we feel would have delivered had we been involved in the creation of this years Census application.
+  In light of the <a href="https://twitter.com/hashtag/CensusFAIL">#CensusFail</a> the ABS delivered to us on Tuesday night, I thought I'd put a blog post where my mouth is and suggest an architecture I feel would have delivered had Cevo been involved in the creation of this years' Census application.
 ---
 
-In light of the <a href="https://twitter.com/hashtag/CensusFAIL">CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward a number of different architectures we feel would have designed for this years Census application.
+In light of the <a href="https://twitter.com/hashtag/CensusFAIL">#CensusFail</a> the ABS delivered to us on Tuesday night, I thought I'd put a blog post where my mouth is and suggest an architecture I feel would have delivered had Cevo been involved in the creation of this years' Census application.
 
 Having not already completed the Census, I’m not 100% sure of what the official requirements are, but I will take a crack at designing a solution from a guesstimate of what they would need.
-
 
 **Requirements:**
 
@@ -42,7 +41,7 @@ I jokingly suggested during the week that a form on top of a google spreadsheet 
 
 ### Deliver as much content as possible from a CDN
 
-One of the biggest issues (if not the biggest) with the existing Census setups was the inability to cope with the demand requirements of 5million+ households having dinner and then all firing up their browsers within 45 minutes of each other.
+One of the biggest issues (if not the biggest) with the existing Census setup was the inability to cope with the demand requirements of 5 million or more households having dinner and then all firing up their browsers within 45 minutes of each other.
 
 To reduce the burden on the central control points, ensure the application is delivered to customers from multiple edge locations.  Even if one of these points gets swamped, the overall network will be able to respond to the vast majority of service requests. In addition, most CDNs provide a level of DDoS-resilience out of the box, with Web Application Firewall (WAF) capability also coming as a standard optional extra.
 
