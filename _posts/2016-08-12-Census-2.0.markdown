@@ -11,8 +11,10 @@ tags:
 author: Steve Mactaggart
 images:
 excerpt:
-  In light of the <a href="https://twitter.com/hashtag/CensusFAIL">CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward a number of different architectures we feel would have delivered had we been involved in the creation of this years Census application.
+  In light of the <a href="https://twitter.com/hashtag/CensusFAIL">CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward a number of different architectures we feel would have designed for this years Census application.
 ---
+
+In light of the <a href="https://twitter.com/hashtag/CensusFAIL">CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward a number of different architectures we feel would have designed for this years Census application.
 
 Having not already completed the Census, I’m not 100% sure of what the official requirements are, but I will take a crack at designing a solution from a guesstimate of what they would need.
 
@@ -97,6 +99,13 @@ Importantly both API Gateway and S3 supports the use of SSL/TLS certificates to 
 
 With the class of information being managed by the Census, security is a must, so ensuring that all items are delivered via HTTPS is a critical requirement.
 
+By using the built in security features of the AWS platform, the architecture could be positioned with the following constraints:
+
+* S3 bucket that stores the application content independent from the Census storage bucket.
+* Lambda function that checks unique code can only <a href="http://docs.aws.amazon.com/directoryservice/latest/admin-guide/role_ddb_read_only.html">read from the DynamoDB</a>.
+* Lambda function that accepts the form submission can update the DynamoDB, and only write to the S3 bucket, ensuring no permission to list or read from the bucket.
+* All traffic delivered to and from client is encrypted with SSL/TLS.
+
 **Validation of Unique Code**
 
 I assume the list of unique codes already existed, so would be possible to transport them to a high bandwidth, low latency data store, DynamoDB, to enable quick lookup and validation.
@@ -127,4 +136,4 @@ I don't want to comment on the current solution, its vendors or the approach tak
 
 the possible options to deliver solutions have drastically increased.
 
-Don't write off a lot of this new technology and the approaches behind them, while the tools and frameworks in this space might only be young, their potential has only just had the surface scratched.
+Don't write off a lot of this new technology and the approaches behind them, while the tools and frameworks in this space might only be young, their potential applications have only begun to be explored.
