@@ -11,8 +11,10 @@ tags:
 author: Steve Mactaggart
 images:
 excerpt:
-  In light of the <a href="https://twitter.com/hashtag/CensusFAIL">#CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward a number of different architectures we feel would have delivered had we been involved in the creation of this years Census application.
+  In light of the <a href="https://twitter.com/hashtag/CensusFAIL">#CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward an architecture we feel would have delivered had we been involved in the creation of this years Census application.
 ---
+
+In light of the <a href="https://twitter.com/hashtag/CensusFAIL">CensusFail</a> the ABS delivered to us on Tuesday night, the team here at Cevo thought we'd put our blog where our mouths are and put forward a number of different architectures we feel would have designed for this years Census application.
 
 Having not already completed the Census, I’m not 100% sure of what the official requirements are, but I will take a crack at designing a solution from a guesstimate of what they would need.
 
@@ -102,6 +104,13 @@ Because Census data is the canonical example of Sensitive PII, all data must be 
 
 ### Validation of Unique Census Code
 
+By using the built in security features of the AWS platform, the architecture could be positioned with the following constraints:
+
+* S3 bucket that stores the application content independent from the Census storage bucket.
+* Lambda function that checks unique code can only <a href="http://docs.aws.amazon.com/directoryservice/latest/admin-guide/role_ddb_read_only.html">read from the DynamoDB</a>.
+* Lambda function that accepts the form submission can update the DynamoDB, and only write to the S3 bucket, ensuring no permission to list or read from the bucket.
+* All traffic delivered to and from client is encrypted with SSL/TLS.
+
 I assume the list of unique codes already existed (after all, the ABS sent out letters to each address with an unique code pre-assigned), so let's pre-populate a high bandwidth, low latency data store (DynamoDB) to enable quick lookup and validation.
 
 When a form is successfully submitted, a flag could be recorded against the DynamoDB record to lock this key from re-use; this has no relationship to the Census data itself, and so meets requirements of separation of data.
@@ -128,10 +137,8 @@ I don't want to comment on the current solution, its vendors or the approach tak
 
 the possible options to deliver solutions have drastically increased.
 
-Don't write off a lot of this new technology and the approaches behind them, while the tools and frameworks in this space might only be young, their potential has only just had the surface scratched.
+Don't write off a lot of this new technology and the approaches behind them, while the tools and frameworks in this space might only be young, their potential applications have only begun to be explored.
 
 ## Caveats
 
-Yes, there are real-world requirements that this simple overview doesn't cover; in-progress saving of forms, clients that cannot (or will not) use
-Javascript, and probably more. This is a thought exercise rather than a full-fledged system design -- however, if you'd _like_ a full-fledged system
-design, or assistance with implementing your own, please contact us!
+Yes, there are real-world requirements that this simple overview doesn't cover; in-progress saving of forms, clients that cannot (or will not) use Javascript, and probably more. This is a thought exercise rather than a full-fledged system design -- however, if you'd _like_ a full-fledged system design, or assistance with implementing your own, please contact us!
