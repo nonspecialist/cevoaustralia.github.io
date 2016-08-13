@@ -141,4 +141,6 @@ Don't write off a lot of this new technology and the approaches behind them, whi
 
 ## Caveats
 
-Yes, there are real-world requirements that this simple overview doesn't cover; in-progress saving of forms, clients that cannot (or will not) use Javascript, and probably more. This is a thought exercise rather than a full-fledged system design -- however, if you'd _like_ a full-fledged system design, or assistance with implementing your own, please contact us!
+Yes, there are real-world requirements that this simple overview doesn't cover; in-progress saving of forms, clients that cannot (or will not) use Javascript, and probably more. This is a thought exercise rather than a full-fledged system design -- however, if you'd _like_ a full-fledged system design, or assistance with implementing your own, please <a href="https://cevo.com.au/contact.html">contact us!</a>.
+
+Also; we know most of what's wrong with this back-of-the-envelope design. Would you like to help improve it? For real clients? Check out our <a href="https://cevo.com.au/careers.html">careers page</a>
