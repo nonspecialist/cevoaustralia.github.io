@@ -1,8 +1,9 @@
 # Cevo Website
 Jekyll website for cevo.com.au
-[ ![Codeship Status for stevemac007/cevoaustralia.github.io](https://codeship.com/projects/8fa2b1e0-44d0-0134-47ad-02154be91b77/status?branch=master)](https://codeship.com/projects/168509)
 
 * The theme used here is http://elbe.blahlab.com/
+
+[ ![Codeship Status for stevemac007/cevoaustralia.github.io](https://codeship.com/projects/8fa2b1e0-44d0-0134-47ad-02154be91b77/status?branch=master)](https://codeship.com/projects/168509)
 
 # How to develop
 
