@@ -917,17 +917,11 @@ body.screenshot {
   letter-spacing: 3px;
   color: #ccc;
 }
-.modBlogPost.big h3 {
-  font-size: 2.5rem;
-}
 .modBlogPost.big h3 a {
   color: #333;
 }
 .modBlogPost.big h3 a:hover {
   color: #f9ce06;
-}
-.modBlogPost.big h4 {
-  font-size: 1.7rem;
 }
 .modBlogPost.big h5 {
   font-size: 1.15rem;
