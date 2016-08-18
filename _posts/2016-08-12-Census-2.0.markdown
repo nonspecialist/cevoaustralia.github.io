@@ -4,10 +4,9 @@ title:  Census 2.0
 date:   2016-08-12
 categories:
   - Devops
-  - System Architecture
-  -
 tags:
   - Cloud
+  - System Architecture
 author: Steve Mactaggart
 images:
 excerpt:

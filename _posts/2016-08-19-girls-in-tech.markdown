@@ -3,7 +3,6 @@ layout: post
 title:  Girls In Tech
 date:   2016-08-19
 categories:
-  - Devops
   - Community
 author: Hannah Browne
 images:
