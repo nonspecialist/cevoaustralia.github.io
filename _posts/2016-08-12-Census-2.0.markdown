@@ -121,7 +121,7 @@ By using API Gateway backed onto an AWS Lambda function, the complexity of the s
 
 This function would not need to access any data store for processing as the client side JavaScript application would be able to submit the entire packet in one post.
 
-It would only need to validate a relatively small JSON packet for completeness and data validity, on failure return sufficient error messages for the client side application to feedback to customers.
+It would only need to validate a relatively small data packet for completeness and data validity, on failure return sufficient error messages for the client side application to give feedback to the user.
 
 If the submitted data was valid, it need not access any database, but simply upload this JSON element to an S3 bucket configured for write only access.  The Lambda function only keeps the data in-memory long enough to validate it, before writing to the encrypted S3 storage. Amazon's KMS (Key Management Service) permits us to provide strong controls over who can access the encrypted data once it's stored.
 
