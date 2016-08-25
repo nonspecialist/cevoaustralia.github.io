@@ -22,14 +22,16 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/hannahbrowne
 
-# - name: Veronica Finarelli
-#   position: People and Culture
-#   desc:
-#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-#   avatar: images/@stock/member-4.jpg
-#   socials:
-#     - icon_class: fa fa-linkedin
-#       url: https://au.linkedin.com/in/hannahbrowne
+- name: Veronica Finarelli
+  position: People and Culture
+  desc:
+    Veronica is HR qualified and passionate about finding curious, clever people to join the ever growing Cevo team. Veronica has worked in many different organisations and industries however loves working in forward thinking, agile companies.
+
+    She truly believes that finding the right people, at the right time, for the right role is paramount to any organisation's success.
+  avatar: images/staff/veronica_finarelli.jpg
+  #  socials:
+  #  - icon_class: fa fa-linkedin
+  #    url: https://au.linkedin.com/in/hannahbrowne
 
 - name: Orlando Erazo
   position: Devops Consultant
@@ -66,11 +68,11 @@
 #     - icon_class: fa fa-facebook
 #       url: http://facebook.com
 
-# - name: Robert Rocco
-#   position: Devops Consultant
-#   desc:
-#     Robert Rocco is highly motivated and goal driven member of the team at Cevo.  He is continuously seeking knowledge and thrives on challenges.  Finding the best solution for a problem is one of his main focuses, beleving you should always be looking to improve.
-#   avatar: images/@stock/member-4.jpg
+- name: Robert Rocco
+  position: Devops Consultant
+  desc:
+    Robert Rocco is highly motivated and goal driven member of the team at Cevo.  He is continuously seeking knowledge and thrives on challenges.  Finding the best solution for a problem is one of his main focuses, beleving you should always be looking to improve.
+  avatar: images/@stock/member-4.jpg
 #   socials:
 #     - icon_class: fa fa-twitter
 #       url: http://twitter.com
@@ -88,15 +90,17 @@
   #   - icon_class: fa fa-facebook
   #     url: http://facebook.com
 
-# - name: Karel Malbroukou Moendzenahou
-#   position: Devops Consultant
-#   desc:
-#     Karel is a consultant who provides leadership and delivery of operations best practices, cloud automation solutions and devops transformation.
-#     He is an enthusiastic and outgoing engineer who’s been active in the devops & agile space in the last few years. Boom!
-#   avatar: images/@stock/member-4.jpg
-#   socials:
-#     - icon_class: fa fa-twitter
-#       url: http://twitter.com
+- name: Karel Malbroukou Moendzenahou
+  position: Devops Consultant
+  desc:
+    Karel is a consultant who provides leadership and delivery of operations best practices, cloud automation solutions and devops transformation.
+    He is an enthusiastic and outgoing engineer who’s been active in the devops & agile space in the last few years. Boom!
+  avatar: images/staff/karel_malbroukou.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/karelmalbroukou
+    - icon_class: fa fa-twitter
+      url: https://twitter.com/labrute974
 
 - name: Trent Hornibrook
   position: Devops Consultant
