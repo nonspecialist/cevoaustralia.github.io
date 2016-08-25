@@ -88,15 +88,17 @@
   #   - icon_class: fa fa-facebook
   #     url: http://facebook.com
 
-# - name: Karel Malbroukou Moendzenahou
-#   position: Devops Consultant
-#   desc:
-#     Karel is a consultant who provides leadership and delivery of operations best practices, cloud automation solutions and devops transformation.
-#     He is an enthusiastic and outgoing engineer who’s been active in the devops & agile space in the last few years. Boom!
-#   avatar: images/@stock/member-4.jpg
-#   socials:
-#     - icon_class: fa fa-twitter
-#       url: http://twitter.com
+- name: Karel Malbroukou Moendzenahou
+  position: Devops Consultant
+  desc:
+    Karel is a consultant who provides leadership and delivery of operations best practices, cloud automation solutions and devops transformation.
+    He is an enthusiastic and outgoing engineer who’s been active in the devops & agile space in the last few years. Boom!
+  avatar: images/staff/karel_malbroukou.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/karelmalbroukou
+    - icon_class: fa fa-twitter
+      url: https://twitter.com/labrute974
 
 - name: Trent Hornibrook
   position: Devops Consultant
