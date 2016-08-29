@@ -1730,13 +1730,11 @@ body.screenshot {
   left: 0;
 }
 
-.info1.bottom-to-top h2,h3 {
+.mainpage > h2 {
   text-shadow: 1px 2px 2px black;
 }
-.info2.bottom-to-top h2,h3 {
-  text-shadow: 1px 2px 2px black;
-}
-.info3.bottom-to-top h2,h3 {
+
+.mainpage > h3 {
   text-shadow: 1px 2px 2px black;
 }
 
