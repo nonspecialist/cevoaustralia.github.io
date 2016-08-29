@@ -3150,9 +3150,21 @@ body {
 
 .modTestimonials {
   padding: 0 60px;
+  transition: background-color 0.5s;
+}
+.modTestimonials:hover {
+  background: rgb(245, 245, 245);
+  background: radial-gradient(rgb(200, 240, 200), rgba(255, 255, 255, 0) 70%);
+  background: -webkit-radial-gradient(rgb(200, 240, 200), rgba(255, 255, 255, 0) 70%);
+  background: -o-radial-gradient(rgb(200, 240, 200), rgba(255, 255, 255, 0) 70%);
+  background: -moz-radial-gradient(rgb(200, 240, 200), rgba(255, 255, 255, 0) 70%);
+  -moz-transition-duration: background 0.8s;
+  -o-transition-duration: background 0.8s;
+  -webkit-transition-duration: background 0.8s;
+  transition-duration: background 0.8s;
 }
 .modTestimonials p.quote {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   margin-bottom: 30px;
 }
 .modTestimonials p.author {
