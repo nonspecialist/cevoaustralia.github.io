@@ -114,17 +114,17 @@
 - name: Owen Chung
   position: Devops Consultant
   desc:
-    Owen Chung is a passionate technologist in the game since the turn of the century. He believes tech is an expression of culture. Quality tech reflects a quality culture. His mission is to help tech builders, makers and creators be their best wielding his devops superpowers to drive this cultural change. 
+    Owen Chung is a passionate technologist in the game since the turn of the century. He believes tech is an expression of culture. Quality tech reflects a quality culture. His mission is to help tech builders, makers and creators be their best wielding his devops superpowers to drive this cultural change.
   avatar: images/staff/owen_chung.jpg
   # socials:
   #   - icon_class: fa fa-twitter
   #     url: http://twitter.com
 
-# - name: Colin Panisset
-#   position: Devops Consultant
-#   desc:
-#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-#   avatar: images/@stock/member-4.jpg
-#   socials:
-#     - icon_class: fa fa-twitter
-#       url: http://twitter.com
+- name: Colin Panisset
+  position: Director, Transformation and Delivery
+  desc:
+    Colin brings his history of operational excellence together with a desire to improve delivery practices to drive business value through improving culture, empathy, automation and technical excellence. He has a knack for understanding and explaining complex systems, and has presented at events like AWS Summits, Devops Days, and many meetups.
+  avatar: images/staff/colin_panisset.jpg
+  # socials:
+  #   - icon_class: fa fa-twitter
+  #     url: http://twitter.com
