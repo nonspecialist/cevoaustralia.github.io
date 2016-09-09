@@ -1,0 +1,6 @@
+version: '2'
+services:
+  cevo-web:
+    build: .
+    volumes:
+      - .:/data
