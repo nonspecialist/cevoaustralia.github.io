@@ -57,14 +57,13 @@
     - icon_class: fa fa-twitter
       url: https://www.twitter.com/stevemac
 
-
 - name: David Walters
   position: Reliability Consultant
   desc:
     David has been a passionate technologist for several years and has extensive experience in building software for a wide range of businesses.
     An advocate for Test Driven Development, and an agent for Quality-oriented delivery through automation of All The Things,
     C# is his favourite language with Groovy a close second.
-  avatar: images/@stock/member-4.jpg
+  avatar: images/staff/david_walters.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/dw-linkedin
