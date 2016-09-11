@@ -8,7 +8,8 @@ Jekyll website for cevo.com.au
 # How to develop (docker)
 If you don't want to install Ruby and instead test the site in docker container:
 ```
-docker-compose up cevo-web
+docker-compose build
+docker-compose up
 ```
 This should build the docker image and run the server at http://localhost:4000/.
 
