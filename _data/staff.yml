@@ -57,16 +57,16 @@
     - icon_class: fa fa-twitter
       url: https://www.twitter.com/stevemac
 
-# - name: Adam Nowotny
-#   position: Devops Consultant
-#   desc:
-#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-#   avatar: images/@stock/member-4.jpg
-#   socials:
-#     - icon_class: fa fa-twitter
-#       url: http://twitter.com
-#     - icon_class: fa fa-facebook
-#       url: http://facebook.com
+- name: Adam Nowotny
+  position: Devops Consultant
+  desc:
+    Adam started programming after getting his first 8-bit computer Atari 800XL at the age of seven. He has worked in software delivery teams as a developer, agile coach and technical lead for over 20 clients in Australia, Ireland, Poland, China, Brazil and India.
+  avatar: images/staff/adam_nowotny.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/adamnowotny
+    - icon_class: fa fa-twitter
+      url: https://www.twitter.com/adam_nowotny
 
 - name: Robert Rocco
   position: Devops Consultant
