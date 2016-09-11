@@ -5,6 +5,14 @@ Jekyll website for cevo.com.au
 
 [ ![Codeship Status for cevoaustralia/cevoaustralia.github.io](https://codeship.com/projects/8fa2b1e0-44d0-0134-47ad-02154be91b77/status?branch=master)](https://codeship.com/projects/168509)
 
+# How to develop (docker)
+If you don't want to install Ruby and instead test the site in docker container:
+```
+docker-compose build
+docker-compose up
+```
+This should build the docker image and run the server at http://localhost:4000/.
+
 # How to develop
 
 You need to have:
