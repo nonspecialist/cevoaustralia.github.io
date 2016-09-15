@@ -11,7 +11,7 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/geoffrohrsheim
 - name: Hannah Browne
-  position: State Manager
+  position: General Manager
   desc:
     Hannah Browne is an opinionated deal maker and the Victorian State Manager of Cevo.
     <br/><br/>A non-technical technologist who is strongly focused on the people
@@ -46,9 +46,9 @@
       url: https://au.linkedin.com/in/orlando-erazo-68a11026
 
 - name: Steve Mactaggart
-  position: Devops Consultant
+  position: Application Delivery Evangineer
   desc:
-    Steve is a devops Consultant with over 16 years experience in and around the technology landscape.
+    Steve is a devops consultant with over 16 years experience in and around the technology landscape.
     <br/><br/>He has been driving what we now call a devops culture before there was even a name for it, and is constantly working to deliver business&#39; an approach of innovation, quality and consistent delivery.
   avatar: images/staff/steve_mactaggart.jpg
   socials:
@@ -57,16 +57,29 @@
     - icon_class: fa fa-twitter
       url: https://www.twitter.com/stevemac
 
-# - name: Adam Nowotny
-#   position: Devops Consultant
-#   desc:
-#     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-#   avatar: images/@stock/member-4.jpg
-#   socials:
-#     - icon_class: fa fa-twitter
-#       url: http://twitter.com
-#     - icon_class: fa fa-facebook
-#       url: http://facebook.com
+- name: David Walters
+  position: Reliability Consultant
+  desc:
+    David has been a passionate technologist for several years and has extensive experience in building software for a wide range of businesses.
+    An advocate for Test Driven Development, and an agent for Quality-oriented delivery through automation of All The Things,
+    C# is his favourite language with Groovy a close second.
+  avatar: images/staff/david_walters.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/dw-linkedin
+    - icon_class: fa fa-twitter
+      url: https://www.twitter.com/whatbirdisthat
+
+- name: Adam Nowotny
+  position: Devops Consultant
+  desc:
+    Adam started programming after getting his first 8-bit computer Atari 800XL at the age of seven. He has worked in software delivery teams as a developer, agile coach and technical lead for over 20 clients in Australia, Ireland, Poland, China, Brazil and India.
+  avatar: images/staff/adam_nowotny.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/adamnowotny
+    - icon_class: fa fa-twitter
+      url: https://www.twitter.com/adam_nowotny
 
 - name: Robert Rocco
   position: Devops Consultant
@@ -80,7 +93,7 @@
 #       url: http://facebook.com
 
 - name: Andy Shaw
-  position: Devops Consultant
+  position: Automation Artificer
   desc:
     Andy was once a developer before he became fascinated with devops and being able to automate All The Things. Since then, he's been enjoying using some of the new technologies emerging in the devops space alongside proven technologies to solve a diverse range of problems.
   avatar: images/staff/andy_shaw.jpg
