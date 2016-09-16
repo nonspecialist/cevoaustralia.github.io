@@ -14,7 +14,7 @@ images:
 excerpt:
   Sometimes it is necessary to forgo the pure awesome of Infrastructure As Code and automate "Most Of The Things".
 ---
---DRAFT--
+`DRAFT`
 # Case Study
 ## Voice Interface Design
 
@@ -24,11 +24,15 @@ VoiceID have recently expanded their field of operation to include software
 development and have achieved significant success already. Now, they want to 
 prepare for scale.
 
-Hand-held devices are used to scan barcodes, place orders, etc in the warehouse
-and messages are sent across the internet to VoiceID servers which act as a
-messaging tier hosted on machines on premise at their HQ in Melbourne, or at
-client sites. Also of note here is their latest tech, in the super-cool
-voice-recognition space.
+
+`rewrite: "About VoiceID"`
+
+    Hand-held devices are used to scan barcodes, place orders, etc in the warehouse
+    and messages are sent across the internet to VoiceID servers which act as a
+    messaging tier hosted on machines on premise at their HQ in Melbourne, or at
+    client sites. Also of note here is their latest tech, in the super-cool
+    voice-recognition space.
+
 
 For their latest project, VoiceID decided they wanted to program scalability into
 the project from the beginning, and as this project was largely self-contained
@@ -166,5 +170,3 @@ automation.
 
 VoiceID's journey is just beginning, it's exciting to see such enthusiasm for
 reliability and I can't wait to see how far they can take their learning.
-
---DRAFT--
