@@ -73,7 +73,7 @@ jQuery(document).foundation();
       messages: { },
       submitHandler: function(form) {
         $.ajax({
-          url: 'http://formspree.io/sales@cevo.com.au',
+          url: 'https://formspree.io/sales@cevo.com.au',
           method: 'POST',
           data: $(form).serialize(),
           dataType: 'json',
@@ -100,7 +100,7 @@ jQuery(document).foundation();
       messages: { },
       submitHandler: function(form) {
         $.ajax({
-          url: 'http://formspree.io/careers@cevo.com.au',
+          url: 'https://formspree.io/careers@cevo.com.au',
           method: 'POST',
           data: $(form).serialize(),
           dataType: 'json',
