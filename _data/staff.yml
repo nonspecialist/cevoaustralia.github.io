@@ -13,10 +13,10 @@
 - name: Hannah Browne
   position: General Manager
   desc:
-    Hannah Browne is an opinionated deal maker and the Victorian State Manager of Cevo.
-    <br/><br/>A non-technical technologist who is strongly focused on the people
-    component of teams and organisations, because frankly, the technology problems
-    are the usually the easier challenges to resolve.
+    Hannah Browne is a passionate, opinionated deal maker, and the General Manager of Cevo.
+    <br/><br/>A non-technical technologist who is strongly focused on the people component
+    of teams and organisations, because frankly, the technology challenges are the almost
+    always easier to solve.
   avatar: images/staff/hannah_browne.jpg
   socials:
     - icon_class: fa fa-linkedin
@@ -82,7 +82,7 @@
       url: https://www.twitter.com/adam_nowotny
 
 - name: Robert Rocco
-  position: Devops Consultant
+  position: Infrastructure Automation and Reliability Engineer
   desc:
     Robert Rocco is highly motivated and goal driven member of the team at Cevo.  He is continuously seeking knowledge and thrives on challenges.  Finding the best solution for a problem is one of his main focuses, beleving you should always be looking to improve.
   avatar: images/staff/robert_rocco.jpg
@@ -116,7 +116,7 @@
       url: https://twitter.com/labrute974
 
 - name: Trent Hornibrook
-  position: Devops Consultant
+  position: Infrastructure Coder
   desc:
     Trent Hornibrook is a passionate engineer that wants to reduce the cycle from ‘idea’ to ‘cash’. Having a history of Infrastructure Operations, MySQL DBA and Agile Delivery, Trent loves simplifying complex problems and identifying ways to deliver value sooner.
   avatar: images/staff/trent_hornibrook.jpg
@@ -125,7 +125,7 @@
   #     url: http://twitter.com
 
 - name: Owen Chung
-  position: Devops Consultant
+  position: Automation Engineer
   desc:
     Owen Chung is a passionate technologist in the game since the turn of the century. He believes tech is an expression of culture. Quality tech reflects a quality culture. His mission is to help tech builders, makers and creators be their best wielding his devops superpowers to drive this cultural change.
   avatar: images/staff/owen_chung.jpg
