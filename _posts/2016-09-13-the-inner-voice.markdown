@@ -41,6 +41,9 @@ could be deployed across multiple geographic locations.
 The client in this case is a global retailer, and click-and-collect features at
 scale would best be spread across many datacentres (availability zones).
 
+Cevo was approached to provide some guidance for the move to cloud-based
+infrastructure.
+
 ### AWS was the natural choice.
 Amazon Web Services was the natural choice as it offers a range of services
 targeted at a growing online presence: from click-create instances (using the
