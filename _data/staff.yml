@@ -31,7 +31,19 @@
   avatar: images/staff/veronica_finarelli.jpg
   #  socials:
   #  - icon_class: fa fa-linkedin
-  #    url: https://au.linkedin.com/in/hannahbrowne
+  #    url:
+
+- name: Richard Busso
+  position: Client Solutions Executive
+  desc:
+    Richard Busso is a connector within the industry who builds strong long lasting relationships and is the Client Solutions Executive at Cevo.
+    Richard is a strategic leader who loves collaborating with businesses and people to solve complex problems. His business acumen and enterprise knowledge, along with his passion for connecting people makes him smile every day.
+  avatar: images/staff/richard_busso.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/richard-busso-914306a
+  #   - icon_class: fa fa-twitter
+  #     url:
 
 - name: Orlando Erazo
   position: Continuous Delivery Advocate
@@ -159,7 +171,7 @@
   position: Infrastructure Automation And Continuous Delivery Consultant
   desc:
     Nikita is a passionate technologist for helping and enabling organisations to transform and adopt agile practices of
-    software development. Her aim is to establishing a culture and environment where software releases can
+    software development. Her aim is to establish a culture and environment where software releases can
     happen rapidly, frequently, and more reliably with the use of automation.
   avatar: images/staff/nikita_gandhi.jpg
   # socials:
