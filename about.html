@@ -89,7 +89,8 @@ section_id: about
     </div>
   </div>
   <div class='row'>
-    {% for member in site.data.staff %}
+    {% assign staff = site.data.staff | sort: 'sort' | reverse %}
+    {% for member in staff %}
     {% assign loopindex = forloop.index | modulo: 2 %}
       <div class='small-6 medium-3 large-3 columns clearfix' style="height:660px">
         <div class='mod modTeamMember style-2'>
