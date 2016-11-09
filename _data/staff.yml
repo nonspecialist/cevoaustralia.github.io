@@ -198,3 +198,29 @@
   #     url:
   #   - icon_class: fa fa-twitter
   #     url:
+
+- name: Simon Bond
+  sort: 16
+  position: Business Designer
+  desc: Simon can be found playing Product Owner, Business Analysis, IM/PM or Agile Coaching roles. He is on a perpetual journey to drag IT closer to "the business" and EVERYONE closer to their customers. Simon is an efficiency addict who loves helping teams shift the dial from a focus on outputs to a focus on measurable business outcomes.
+  avatar: images/staff/simon_bond.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/sjbond
+  #   - icon_class: fa fa-twitter
+  #     url:
+  #   - icon_class: fa fa-facebook
+  #     url: http://facebook.com
+
+- name: Henrik Axelsson
+  sort: 18
+  position: Business Solutions Consultant
+  desc: Henrik worked across a large variety of technology roles before landing at business analysis. Having a solid background in software development allows Henrik to understand of both the technical and operational aspects of project delivery and that any solution requires a delicate balancing of technical and operational trade offs.
+  avatar: images/staff/henrik_axelsson.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/henrik-axelsson-7083b23
+  #   - icon_class: fa fa-twitter
+  #     url:
+  #   - icon_class: fa fa-facebook
+  #     url: http://facebook.com
