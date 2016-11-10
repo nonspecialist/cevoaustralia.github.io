@@ -170,6 +170,11 @@
   # socials:
   #   - icon_class: fa fa-twitter
   #     url: http://twitter.com
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/colinpanisset
+    - icon_class: fa fa-twitter
+      url: https://www.twitter.com/nonspecialist
 
 - name: Melissa Ngau
   sort: 13
