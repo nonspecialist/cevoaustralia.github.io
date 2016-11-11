@@ -66,8 +66,11 @@
   sort: 12
   position: Application Delivery Evangineer
   desc:
-    Steve is a devops consultant with over 16 years experience in and around the technology landscape.
-    <br/><br/>He has been driving what we now call a devops culture before there was even a name for it, and is constantly working to deliver business&#39; an approach of innovation, quality and consistent delivery.
+    Steve loves helping businesses deliver the best solution for their customers in a way that fits both their timelines and their customer needs.
+    <br/><br/>
+    A passionate technologist, he takes great pleasure in keeping abreast of current trends in technology always looking for opportunities to improve current practice with some innovative thinking.
+    # Using Lean and Agile principals, Steve is constantly working with teams to help them realise the goal of delivering value in discrete units, measuring the results and then learning and adapting in rapid succession.
+
   avatar: images/staff/steve_mactaggart.jpg
   socials:
     - icon_class: fa fa-linkedin
@@ -164,9 +167,11 @@
   desc:
     Colin brings his history of operational excellence together with a desire to improve delivery practices to drive business value through improving culture, empathy, automation and technical excellence. He has a knack for understanding and explaining complex systems, and has presented at events like AWS Summits, Devops Days, and many meetups.
   avatar: images/staff/colin_panisset.jpg
-  # socials:
-  #   - icon_class: fa fa-twitter
-  #     url: http://twitter.com
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/colinpanisset
+    - icon_class: fa fa-twitter
+      url: https://www.twitter.com/nonspecialist
 
 - name: Melissa Ngau
   sort: 13
@@ -195,3 +200,29 @@
   #     url:
   #   - icon_class: fa fa-twitter
   #     url:
+
+- name: Simon Bond
+  sort: 16
+  position: Business Designer
+  desc: Simon can be found playing Product Owner, Business Analysis, IM/PM or Agile Coaching roles. He is on a perpetual journey to drag IT closer to "the business" and EVERYONE closer to their customers. Simon is an efficiency addict who loves helping teams shift the dial from a focus on outputs to a focus on measurable business outcomes.
+  avatar: images/staff/simon_bond.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/sjbond
+  #   - icon_class: fa fa-twitter
+  #     url:
+  #   - icon_class: fa fa-facebook
+  #     url: http://facebook.com
+
+- name: Henrik Axelsson
+  sort: 18
+  position: Business Solutions Consultant
+  desc: Henrik has worked across a large variety of technology roles before landing at Business Analysis. With a solid background in software development, Henrik has acquired a rich understanding for both the technical and operational aspects of project delivery. This experience has given him a keen eye for striking the delicate balance between technical and operational trade offs.
+  avatar: images/staff/henrik_axelsson.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/henrik-axelsson-7083b23
+  #   - icon_class: fa fa-twitter
+  #     url:
+  #   - icon_class: fa fa-facebook
+  #     url: http://facebook.com
