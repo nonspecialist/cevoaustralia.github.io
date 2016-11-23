@@ -14,9 +14,9 @@ excerpt:
 
 As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage are growing. Businesses will face a set of new challenges, many that their current organisational structure, staffing skills, processes and practices will not be set up to handle.
 
-Over many months and years, these organisations have created a structure in response to their environment; an environment dictated by the inherent constraints and requirements of running their own infrastructure.
+Over time, these organisations have responded to their environments by creating structure focussed on satisfying the inherent constraints and requirements of running their own infrastructure.
 
-Within this environment, the lifecycle for infrastructure is measured in years. There is a constant need to manage risk across all aspects of designing, provisioning, building and running systems. This management requires teams of people who need to be trained, organised and motivated to keep those systems running, often 24hrs a day, against increasing demand from customers both internal and external.
+Within traditional environments, the lifecycle for infrastructure is measured in years. There is a constant need to manage risk across all aspects of designing, provisioning, building and running systems. This management requires teams of people who need to be trained, organised and motivated to keep those systems running, often 24hrs a day, against increasing demand from customers both internal and external.
 
 With the broader acceptance of cloud computing, many large organisations are now evaluating a move towards cloud providers, but one of their biggest challenges remains redesigning their current structure, approach and mindset.
 
