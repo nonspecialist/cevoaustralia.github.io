@@ -7,12 +7,12 @@ categories:
 author: Steve Mactaggart
 images:
 excerpt:
-    As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage are growing.
+    As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage is growing.
 
-    Businesses will face a set of new challenges, many that their current organisational structure, staffing skills, processes and practices will not be set up to handle.
+    Businesses will face a set of new challenges, many that their current organisational structure, staffing, skills, processes and practices will not be set up to handle.
 ---
 
-As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage are growing. Businesses will face a set of new challenges, many that their current organisational structure, staffing skills, processes and practices will not be set up to handle.
+As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage is growing. Businesses will face a set of new challenges, many that their current organisational structure, staffing, skills, processes and practices will not be set up to handle.
 
 Over time, these organisations have responded to their environments by creating structure focussed on satisfying the inherent constraints and requirements of running their own infrastructure.
 
@@ -21,11 +21,11 @@ Within traditional environments, the lifecycle for infrastructure is measured in
 With the broader acceptance of cloud computing, many large organisations are now evaluating a move towards cloud providers, but one of their biggest challenges remains redesigning their current structure, approach and mindset.
 
 For many organisations considering cloud solutions (especially AWS) the initial focus is to:
- * reduce the expense and complexity of running a data center;
- * minimise the need to purchase and manage hardware through its lifecycle; and
- * reduce the staff numbers to install and maintain these systems.
+ * reduce the expense and complexity of running a data centre
+ * minimise the need to purchase and manage hardware through its lifecycle and
+ * reduce the headcount required to install and maintain these systems.
 
-For savvy organisations, a cloud can be so considerably more.  The challenge is to take full advantage of these newly flexible infrastructure and service arrangements. Movement towards cloud sytems needs to go further than simple lift-and-shift of physical components to cloud replacements-in-kind, and look not only to the IT systems currently in use, but a full review of the fundamental approach in place to develop and manage these systems.
+For savvy organisations, a cloud can be considerably more.  The challenge is to take full advantage of these newly flexible infrastructure and service arrangements. Movement towards cloud sytems needs to go further than simple lift-and-shift of physical components to cloud replacements-in-kind, and look not only to the IT systems currently in use, but a full review of the fundamental approach in place to develop and manage these systems.
 
 There are many aspects to cloud computing, and many words have already been written about how to unlock infrastructure for development or application teams to deliver value faster or easier.
 
@@ -35,7 +35,7 @@ Successful delivery of a transition from large scale, on premise infrastructure 
 
 The primary constraints of running your own datacenter are rooted in the physical world: the amount of storage you have, the number of CPUs available, power and cooling ... all are key factors in providing infrastructure to deliver business value. In the cloud, though, you have significantly greater agility of infrastructure, and while there still are constraints the primary ones no longer reflect the need to manage a fleet of fixed capacity.
 
-If the primary constraint of limited resources was the environment in which the organisation formed its teams, best practices, processes and culture, it goes without saying that when this constraint is reduced the teams, practices, process and culture all need to be reviewed.
+If the primary constraint of limited resources was the environment in which the organisation formed its teams, best practices, processes and culture, it goes without saying that when this constraint is elevated the teams, practices, process and culture all need to be reviewed.
 
 Without reviewing their existing organsational structure, current processes and definitions of best practice, organisations who choose to transition to cloud based infrastructure will not be able to fully capitalise on all of the benefits.
 
