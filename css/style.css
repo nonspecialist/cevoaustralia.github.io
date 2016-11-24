@@ -3201,11 +3201,7 @@ body {
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 60em) {
-  .modTeamMember .overlay {
-    opacity: 1;
-    background-color: rgba(255, 255, 255, 0.8);
-    top: 0;
-  }
+  
   .modTeamMember .overlay .intro {
     width: 100%;
     height: 100%;
