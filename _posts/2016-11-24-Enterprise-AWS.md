@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Enterprise AWS adoption
-date:   2016-11-13
+date:   2016-11-24
 categories:
   - Enterprise
 author: Steve Mactaggart
@@ -48,7 +48,7 @@ There have been many examples of adoption of cloud computing, most of which foll
 * Focus them on delivering a small number of production grade services,
 * Support them when they fail (they will),
 * Ensure that they test their assumptions, and communicate what they learn,
-* Provide them sufficient resourcing, training and support, 
+* Provide them sufficient resourcing, training and support,
 * Ask them to challenge the current processes, assumptions and practices.
 
 If you can successfully create an environment in which your current team structures, processes and approaches can be questioned and challenged in an open, honest and measured approach, you will be half way to identifying the path forward to cloud computing success.
