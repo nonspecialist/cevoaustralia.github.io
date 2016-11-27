@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mapping system couplings and dependencies for discovery and profit"
-date:   2016-10-27
+date:   2016-11-27
 categories:
     - tools
     - devops
