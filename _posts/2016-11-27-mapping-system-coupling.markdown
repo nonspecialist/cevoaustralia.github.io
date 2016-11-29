@@ -24,14 +24,14 @@ all this juicy, interesting information.
 ## The Problem, Restated
 
 Systems grow and morph over time, quite naturally. This happens for a
-variety of reasons: lack of time or experience are the most common
-causes, and neither of them are cause for blame.  Even in environments
+variety of reasons: lack of time or experience are the most common,
+and neither are cause for blame.  Even in environments
 that are strictly controlled (for example, about systems that come
 under the aegis of external regulators), these systems end up being
 coupled to others in ways that may not have been planned. In most older
 environments, there are human elements to this coupling: Bob, over there,
 is a critical part of the deployment process, or Karen up on Level 15
-is the only wayw the reports get from the database over to Sales (via the `Z:`
+is the only way the reports get from the database over to Sales (via the `Z:`
 drive, of course), and that's the way it's always been.
 
 The risks to the business here are many:
@@ -70,7 +70,7 @@ There are 4 stages:
 ### Stage 1: Capture some raw data
 
 1. Get a few knowledgeable people in a room, with a large enough
-   whiteboard (or butchers paper, or post-it notes, or whatever). This
+   whiteboard (or butcher's paper, or post-it notes, or whatever). This
    doesn't have to be the whole team, and (unless they built the
    system and have run it themselves), it shouldn't be anyone with
    Solution Architect, Manager, or Analyst in their title. You need
@@ -116,7 +116,8 @@ There are 4 stages:
    ashamed to say it before" details. A measure of both anonymity and
    time-dependent opportunity is at work here.
 1. Before the map becomes illegible from updates, take it off the wall 
-   and capture the changes in your version-controlled 
+   and capture the changes in the map source code (version-controlled,
+   of course, so you can illustrate changes over time)
 1. Print it out again, stick it up, and repeat until the rate of change
    becomes low enough that it's now a visual radiator of the current state.
 
@@ -150,7 +151,7 @@ to use them as a basis for your own efforts.
 Sounds simple, right? You've got a webserver, an app server, a backend
 database. That's it? Well, sure, except for how the code gets on to the
 webserver. And where it's stored before that. And that app server, it somehow
-gets an report to the external auditor every week. How does that actually
+gets a report to the external auditor every week. How does that actually
 happen? A little digging reveals that there's also an internal microservice
 that this application relies on to do authentication of users.
 
