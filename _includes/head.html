@@ -31,8 +31,10 @@
   {% endif %}
   {% if page.thumbnail %}
   <meta name="twitter:image" content="{{ site.url }}/images/{{ page.thumbnail }}">
+  <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.thumbnail }}">
   {% else %}
   <meta name="twitter:image" content="{{ site.url }}/images/cevo-logo.png">
+  <meta name="twitter:image:src" content="{{ site.url }}/images/cevo-logo.png">
   {% endif %}
 
   <script src="{{ "/javascripts/libs.js" | prepend: site.baseurl }}" type="text/javascript"></script>
