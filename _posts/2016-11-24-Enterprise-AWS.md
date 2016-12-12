@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Enterprise AWS adoption
+description: Challenges of enterprise AWS adoption
 date:   2016-11-24
 categories:
   - Enterprise
