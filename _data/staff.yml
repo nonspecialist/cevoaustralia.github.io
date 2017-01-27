@@ -11,6 +11,7 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/geoffrohrsheim
+
 - name: Hannah Browne
   sort: 2015-05-19
   position: General Manager
@@ -29,7 +30,6 @@
   position: People and Culture
   desc:
     Veronica is HR qualified and passionate about finding curious, clever people to join the ever growing Cevo team. Veronica has worked in many different organisations and industries however loves working in forward thinking, agile companies.
-
     She truly believes that finding the right people, at the right time, for the right role is paramount to any organisation's success.
   avatar: images/staff/veronica_finarelli.jpg
   socials:
@@ -47,7 +47,7 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/richard-busso-914306a
   #   - icon_class: fa fa-twitter
-  #     url:
+  #     url: http://twitter.com
 
 - name: Orlando Erazo
   sort: 2015-08-10
@@ -70,7 +70,6 @@
     <br/><br/>
     A passionate technologist, he takes great pleasure in keeping abreast of current trends in technology always looking for opportunities to improve current practice with some innovative thinking.
     # Using Lean and Agile principals, Steve is constantly working with teams to help them realise the goal of delivering value in discrete units, measuring the results and then learning and adapting in rapid succession.
-
   avatar: images/staff/steve_mactaggart.jpg
   socials:
     - icon_class: fa fa-linkedin
@@ -172,8 +171,8 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/melissangau
-    # - icon_class: fa fa-twitter
-    #   url: https://twitter.com/MsNgau
+    - icon_class: fa fa-twitter
+      url: https://twitter.com/MsNgau
 
 - name: Nikita Gandhi
   sort: 2016-10-04
@@ -186,7 +185,7 @@
    - icon_class: fa fa-linkedin
      url: https://au.linkedin.com/in/nikita-gandhi-6416b24b
   #   - icon_class: fa fa-twitter
-  #     url:
+  #     url: https://twitter.com/
 
 - name: Simon Bond
   sort: 2016-10-11
@@ -197,7 +196,7 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/sjbond
   #   - icon_class: fa fa-twitter
-  #     url:
+  #     url: https://twitter.com/
   #   - icon_class: fa fa-facebook
   #     url: http://facebook.com
 
@@ -210,7 +209,7 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/henrik-axelsson-7083b23
   #   - icon_class: fa fa-twitter
-  #     url:
+  #     url: https://twitter.com/
   #   - icon_class: fa fa-facebook
   #     url: http://facebook.com
 
