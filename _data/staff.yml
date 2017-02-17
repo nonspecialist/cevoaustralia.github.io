@@ -134,6 +134,16 @@
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/elliott-gorrell
 
+- name: James Strain
+  sort: 2017-02-10
+  position: CI/CD Engineer
+  desc:
+    James appreciates that his passion and enjoyment comes from helping businesses to deliver better experiences to their customers, more rapidly and frequently.
+  avatar: images/staff/james_strain.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/jamesstrain1
+
 - name: Colin Panisset
   sort: 2016-07-07
   position: Director, Transformation and Delivery
